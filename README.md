@@ -26,14 +26,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+    .forEach does not automatically return a new array where .map will return a new array. .map leaves the original array alone where forEach could/would alter the original array.
 
 2. Explain the difference between a callback and a higher order function.
+    Callback functions are functions passed into another function. A higher order function is a function that receives another function as a parameter (callback function).
 
 3. What is closure?
+    Closure is what puts functions together. It is what gives an inner function access to an outer function’s scope even after that parent has been terminated.
 
 4. Describe the four rules of the 'this' keyword.
+    Window: applies when no other rules do. It is used in ‘strict mode’. Implicit: when you invoke the function, look to the left of the dot at that invocation…that is what ‘this’ refers to Explicit: uses call, apply or bind to explicitly state what ‘this’ should refer to New: when new is used, a new object is created and ‘this’ points to that object
 
 5. Why do we need super() in an extended class?
+    We use super() to do what call and create would do if we weren’t using classes. It grabs everything specified from the parent class we are extending from.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -43,12 +48,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 > This section should include instruction for the sprint challenge. These should only cover things that are _not_ being evaluated by the challenge itself, e.g. environment/project setup, link to a starter project, etc. In general, this will be the following Git fork, clone, branch, commit, push, create pull request flow, though may need to be adapted for some specific challenges.
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [X] Create a forked copy of this project
+- [X] Add your team lead as collaborator on Github
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [X] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
